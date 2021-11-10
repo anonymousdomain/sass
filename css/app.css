@@ -150,4 +150,31 @@ a {
   width: 50%;
 }
 
+@media (max-width: 500px) {
+  .showcase {
+    border-bottom: 2px indigo solid;
+  }
+  .showcase h1 {
+    font-size: 30px;
+  }
+  .showcase nav h1 {
+    font-size: 15px;
+  }
+  .showcase-content {
+    margin: 20px 0;
+    display: block;
+  }
+  .showcase-content img {
+    width: 80%;
+  }
+  .showcase-content a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .showcase a {
+    font-size: 10px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
