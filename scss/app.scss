@@ -1,6 +1,4 @@
-$light-color:#f4f4f4;
-$primary-color:#0e6cff;
-$secondary-color:#ff8700;
+@import"config";
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +9,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .showcase{
 
+    background-color: $primary-color;
+    color: #fff;
     nav{
         display: flex;
         align-items: center;
@@ -25,8 +29,12 @@ body{
         li{
             padding: 0 10px;
         }
+        a:hover{
+            border-bottom: 2px solid #fff;
+        }
     }
 }
 .container{
-
+ max-width: 1100px;
+ margin: 0 auto;
 }
