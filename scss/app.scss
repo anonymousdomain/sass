@@ -16,8 +16,7 @@ a {
   color:set-text-color($primary-color);
 }
 .showcase {
-  background-color: $primary-color;
-  color:set-text-color($primary-color);
+  @include set-background($primary-color);
   nav {
     display: flex;
     align-items: center;
