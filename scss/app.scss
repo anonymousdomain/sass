@@ -17,6 +17,14 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        ul{
+            display: flex;
+            list-style-type:none;
+        }
+        li{
+            padding: 0 10px;
+        }
     }
 }
 .container{
