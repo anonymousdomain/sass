@@ -13,7 +13,7 @@
 }
 
 .btn-primary {
-  background-color: #418bff;
+  background-color: white;
 }
 
 .btn-secondary {
@@ -34,12 +34,12 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #333;
 }
 
 .showcase {
-  background-color: #0e6cff;
-  color: #fff;
+  background-color: #e0ffff;
+  color: #333;
 }
 .showcase nav {
   display: flex;
