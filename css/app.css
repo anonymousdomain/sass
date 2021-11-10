@@ -1,3 +1,25 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-secondary, .btn-primary {
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,10 +56,21 @@ a {
 .showcase nav a:hover {
   border-bottom: 2px solid #fff;
 }
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+.showcase-content p {
+  margin: 20px 0;
+}
+.showcase-content img {
+  width: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */

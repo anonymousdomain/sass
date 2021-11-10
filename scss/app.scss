@@ -1,40 +1,54 @@
-@import"config";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import "config";
+@import "_utilites";
+@import "button";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color:$light-color;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+body {
+  background-color: $light-color;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
-a{
-    text-decoration: none;
-    color: #fff;
+a {
+  text-decoration: none;
+  color: #fff;
 }
-.showcase{
+.showcase {
+  background-color: $primary-color;
+  color: #fff;
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-    background-color: $primary-color;
-    color: #fff;
-    nav{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        ul{
-            display: flex;
-            list-style-type:none;
-        }
-        li{
-            padding: 0 10px;
-        }
-        a:hover{
-            border-bottom: 2px solid #fff;
-        }
+    ul {
+      display: flex;
+      list-style-type: none;
     }
-}
-.container{
- max-width: 1100px;
- margin: 0 auto;
+    li {
+      padding: 0 10px;
+    }
+    a:hover {
+      border-bottom: 2px solid #fff;
+    }
+  }
+
+  &-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-size: 50px;
+      line-height: 1.2;
+    }
+    p {
+      margin: 20px 0;
+    }
+    img {
+      width: 50%;
+    }
+  }
 }
